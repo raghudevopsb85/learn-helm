@@ -7,4 +7,6 @@ data:
   drink: {{ .Values.favorite.drink | repeat 5 | quote }}
   food: {{ .Values.favorite.food | upper | quote }}
   drink1: {{ .Values.favorite.drink1 | default "tea" | quote }}
+  anno:
+    {{ (lookup "v1" "Namespace" "" "kube-system").metadata.annotations }}
 
