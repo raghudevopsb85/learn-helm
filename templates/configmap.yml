@@ -6,4 +6,5 @@ data:
   myvalue: "Hello World"
   drink: {{ .Values.favorite.drink | repeat 5 | quote }}
   food: {{ .Values.favorite.food | upper | quote }}
+  drink1: {{ .Values.favorite.drink1 | default "tea" | quote }}
 
