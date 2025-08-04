@@ -6,4 +6,5 @@ data:
   myvalue: "Hello World"
   value_from_values: {{ .Values.fruit }}
   value_from_chart: {{ .Chart.Name }}
+  value_from_subchart: {{ .Subcharts.sample.fruit }}
 
