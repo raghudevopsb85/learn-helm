@@ -8,7 +8,7 @@
 
 // The above one is with indentation.
 
-// The below one does not have indentation
+// The below one does not have indentation. For this include will be used.
 
 {{- define "mychart.app" -}}
 app_name: {{ .Chart.Name }}
