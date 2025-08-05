@@ -18,4 +18,4 @@ data:
   {{ if eq .Values.favorite.drink "coffee" }}mug: "true"{{ end }}
   {{- if eq .Values.favorite.drink "coffee" }}
   sugar: "true"
-  {{ end }}
+  {{- end }}
