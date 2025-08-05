@@ -3,3 +3,6 @@ favorite:
   drink: coffee
   food: pizza
 
+configmap:
+  enabled: false
+
