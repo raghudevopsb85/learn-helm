@@ -19,3 +19,4 @@ data:
   {{- if eq .Values.favorite.drink "coffee" }}
   sugar: "true"
   {{- end }}
+  mobile: "900"
